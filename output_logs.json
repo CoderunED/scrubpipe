@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-06-25T14:03:11Z",
+    "user_email": "alice@example.com",
+    "src_ip": "192.168.1.20",
+    "action": "login",
+    "message": "user alice@example.com logged in from 192.168.1.20"
+  },
+  {
+    "timestamp": "2026-06-25T14:05:42Z",
+    "user_email": "bob@example.com",
+    "src_ip": "10.0.0.5",
+    "action": "file_access",
+    "message": "bob@example.com accessed /etc/secrets"
+  }
+]
