@@ -2,13 +2,13 @@
   {
     "timestamp": "2026-06-25T14:03:11Z",
     "user_email": "REDACTED",
-    "src_ip": "192.168.1.20",
+    "src_ip": "REDACTED",
     "action": "login",
     "message": "user alice@example.com logged in from 192.168.1.20"
   },
   {
     "timestamp": "2026-06-25T14:05:42Z",
-    "user_email": "bob@example.com",
+    "user_email": "REDACTED",
     "src_ip": "REDACTED",
     "action": "file_access",
     "message": "bob@example.com accessed /etc/secrets"
