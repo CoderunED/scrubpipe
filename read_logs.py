@@ -4,6 +4,8 @@ with open("sample_logs.json","r") as f:
 
 print(f"Loaded {len(logs)} log events")
 print("First event email:", logs[0]["user_email"])
+logs[0]["user_email"] = "REDACTED"
+logs[1]["src_ip"] = "REDACTED"
 
 with open("output_logs.json", "w") as f:
     json.dump(logs,f,indent=2)
